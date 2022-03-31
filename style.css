@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -6,11 +6,11 @@
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     height: 10vh;
@@ -18,7 +18,7 @@ nav{
     align-items: center;
 }
 
-nav ul{
+nav ul {
     width: 40%;
     border: 2px solid;
     list-style-type: none;
@@ -26,11 +26,11 @@ nav ul{
     justify-content: space-between;
 }
 
-.highlight{
+.highlight {
     color: #95d195;
 }
 
-#hero{
+#hero {
     border: 2px solid red;
     height: 50vh;
     display: flex;
@@ -40,18 +40,43 @@ nav ul{
     justify-content: center;
 }
 
-#hero p{
+#hero p {
     margin: 40px;
 }
 
-.secondary-text{
+.secondary-text {
     color: blue;
     font-size: 14px;
 }
 
-.button{
+.button {
     background-color: blue;
     columns: white;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+
+    background-color: white;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #95d195;
+    flex-direction: row;
+
+}
+
+.card h3 {
+    margin-bottom: 10px;
 }
